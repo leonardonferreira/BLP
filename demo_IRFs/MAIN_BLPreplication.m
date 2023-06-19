@@ -93,6 +93,11 @@ modelSpec.bandsCoverage        =90;
 %choose identification scheme
 modelSpec.identification       ='CHOL'; %alternatives: 'PSVAR', 'CHOL';
 
+% To use PSVAR, define your instrument here
+% modelSpec.instrument.dates =
+% modelSpec.instrument.data  =
+% modelSpec.instrument.labels =
+
 
 
 %declare shock variable & shock size
